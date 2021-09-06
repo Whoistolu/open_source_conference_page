@@ -53,3 +53,9 @@
     color: #7868E6;
     margin-top: 2%;
   }
+
+  .mobile-second-page {
+      background-image: url(img/background.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
