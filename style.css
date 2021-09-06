@@ -15,7 +15,6 @@
       background-repeat: no-repeat;
       background-size: 25%;
       background-position: 100% 40%;
-      /* opacity: 0.2; */
   }
 
   .mobile-first-page h1 {
@@ -55,7 +54,16 @@
   }
 
   .mobile-second-page {
+      display: grid;
+      justify-content: center;
+      align-items: center;
       background-image: url(img/background.png);
       background-repeat: no-repeat;
       background-size: cover;
+      margin-top: 5%;
+  }
+
+  .mobile-second-page h2 {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
   }
