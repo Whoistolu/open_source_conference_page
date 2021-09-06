@@ -4,4 +4,52 @@
     margin: 0;
   }
 
-  
+  #handburger {
+      margin: 1em 1em;
+      color: #d3d3d3;
+  }
+
+  .mobile-first-page {
+      margin: 1em 1em;
+      background-image: url(img/bulb.png);
+      background-repeat: no-repeat;
+      background-size: 25%;
+      background-position: 100% 40%;
+      /* opacity: 0.2; */
+  }
+
+  .mobile-first-page h1 {
+    font-family: 'Lato', sans-serif;
+    color: #7868e6;
+    font-size: 25px;
+  }
+
+  .mobile-first-page h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #7868e6;
+    font-size: 35px;
+  }
+
+  .mobile-first-page p {
+      margin-top: 10%;
+      background-color: #edeef7;
+      border: 1px solid #7868e6;
+      box-shadow: 1px 4px #7868e6;
+      padding: 15px;
+      line-height: 20px;
+  }
+
+  .mobile-first-page h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: #7868E6;
+    margin-top: 5%;
+  }
+
+  .mobile-first-page h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #7868E6;
+    margin-top: 2%;
+  }
