@@ -130,3 +130,31 @@
     padding: 30px;
     text-decoration: none;
   }
+
+  .mobile-third-page {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-third-page h2 {
+    align-self: center;
+  }
+
+  .speaker1 {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    background-image: url(img/checkerboard.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    
+  }
+
+  .double-image {
+    /* position: relative; */
+  }
+
+  .checkerboard {
+    width: 80%;
+  }
