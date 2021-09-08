@@ -34,7 +34,7 @@
 
 .first-page-background {
   background-color: #fff;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .about-mobile-first-page h1 {
@@ -49,6 +49,7 @@
   font-family: 'COCOGOOSE', Arial, sans-serif;
   font-size: 40px;
   width: 100%;
+  color: transparent;
   background-image: url(img/font.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,7 +60,7 @@
 .about-mobile-first-page p {
   margin-top: 15%;
   background-color: #fff;
-  border: 5px solid #d3d3d3;
+  border: 2px solid #d3d3d3;
   color: #2e323b;
   padding: 20px;
   line-height: 25px;
@@ -83,4 +84,65 @@
   color: #2e323b;
   margin-top: 2%;
   padding-bottom: 10%;
+}
+.about-second-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-second-page h2, h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 27px;
+  padding-bottom: 1%;
+}
+
+.about-second-page hr {
+  border-bottom: 6px solid #ec5242;
+  width: 5%;
+}
+
+.about-second-page p {
+  color: #797474;
+  padding-top: 1%;
+}
+
+.about-second-page .line3 {
+  width: 100%;
+  color: #2e323b;
+  height: 20px;
+}
+
+.logo2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  justify-content: center;
+  border: 1px solid #cac6c6;
+  padding: 20px 20%;
+  margin: 3% 0;
+}
+
+.about-third-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-third-page h2 {
+  justify-content: center;
+  align-self: center;
+  padding-top: 5%;
+}
+
+.about-third-page p {
+  justify-content: center;
+  align-self: center;
+  text-align: center; 
+}
+
+.about-third-page img {
+  width: 75%;
+  justify-content: center;
+  align-self: center;
+  margin-top: 5%;
 }
