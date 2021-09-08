@@ -1,35 +1,43 @@
+@import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
-
-  @font-face {
-    font-family: "COCOGOOSE";
-    src: url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.woff") format("woff"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.svg#COCOGOOSE") format("svg"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot"), url("../webfonts_COCOGOOSE/COCOGOOSE.ttf.eot?#iefix") format("embedded-opentype");
-    font-weight: normal;
-    font-style: normal;
-  }
+  
 
   #handburger {
     padding-top: 6%;
-      margin: 0 1em;
-      color: #2e323b;
+    margin: 0 1em;
+    
       
   }
 
+  .handburger {
+    content: "\f0c9";
+    font-size: 40px;
+    color: #2e323b;
+  }
+
   #first-page {
-    background-color: #d3d3d3;
-    /* width: 100%; */
+    background-image: url(img/home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  .first-page-background {
+    background-color: #fff;
+    opacity: 0.9;
   }
 
   .mobile-first-page {
       margin-right: 1em;
       margin-left: 1em;
-      background-image: url(img/bulb.png);
+      background-image: url(img/bck1.png), url(img/bck2.png), url(img/bck3.png), url(img/bck4.png);
       background-repeat: no-repeat;
-      background-size: 20%;
-      background-position: 100% 40%;
+      background-size: 20%, 12%, 5%, 5%;
+      background-position: 100% 50%, 60% 0%, 90% 3%, 5% 50%;
       
   }
 
@@ -42,24 +50,29 @@
   }
 
   .mobile-first-page h2 {
-    font-family: 'COCOGOOSE', Arial, sans-serif;
-    color: #ec5242;
+    font-family: 'cocogoose', sans-serif;
+    color: transparent;
     font-size: 40px;
     width: 100%;
+    background-image: url(img/font.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
   }
 
   .mobile-first-page p {
-      margin-top: 10%;
-      background-color: #d3d3d3;
-      border: 2px solid #fff;
-      color: #2e323b;
-      padding: 20px;
-      line-height: 25px;
-      width: 100%;
+    margin-top: 10%;
+    background-color: #ece9e9;
+    border: 3px solid #fff;
+    color: #2e323b;
+    padding: 20px;
+    line-height: 25px;
+    width: 100%;
   }
 
   .mobile-first-page h3 {
-    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'cocogoose', sans-serif;
     font-size: 28px;
     font-weight: 700;
     color: #2e323b;
