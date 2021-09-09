@@ -117,14 +117,19 @@
 .logo2 {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
+  font-size: 25px;
   justify-content: center;
   border: 1px solid #cac6c6;
-  padding: 20px 20%;
+  padding: 25px 25%;
   margin: 3% 0;
+  text-align: center;
 }
 
 .about-third-page {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   flex-direction: column;
 }
 
@@ -132,17 +137,108 @@
   justify-content: center;
   align-self: center;
   padding-top: 5%;
+  border-top: 2px solid gray;
+  width: 100%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-third-page h2::after {
+  content: "";
+  background-color: #ec5242;
+  display: block;
+  margin: 0 auto;
+  width: 1.5em;
+  height: 2px;
+  border-radius: 0.5px;
+  margin-top: 0.5em;
+
 }
 
 .about-third-page p {
   justify-content: center;
   align-self: center;
-  text-align: center; 
+  text-align: center;
+  padding-top: 1em; 
 }
 
-.about-third-page img {
-  width: 75%;
+
+.techrunch1 {
+  position: relative;
+  margin: 5% auto;
+  width: 20rem;
+  height: 12rem;
+}
+
+.techrunch1 img {
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.techrunch1::before {
+  position: absolute;
+  display: block;
+  content: "";
+  background-color: rgba(255, 0, 0, 0.477);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+
+.techrunch1 span {
+  font-family: 'COCOGOOSE', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.centered {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 15px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-self: center;
-  margin-top: 5%;
+  align-items: center;
+}
+
+.partners {
+  background-color: #cac6c6;
+}
+
+.partners h2 {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.partners h2::after {
+  content: "";
+  background-color: #ec5242;
+  display: block;
+  margin: 0 auto;
+  width: 1.5em;
+  height: 2px;
+  border-radius: 0.5px;
+  margin-top: 0.5em;
+}
+
+.partners-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+}
+
+.partners-logo img {
+  width: 35%;
 }
