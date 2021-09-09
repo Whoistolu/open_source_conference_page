@@ -1,27 +1,28 @@
 @import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 #about-handburger {
   padding-top: 6%;
-    margin: 0 1em;
+  margin: 0 1em;
 }
 
 .handburger {
   content: "\f0c9";
-    font-size: 40px;
-    color: #2e323b;
+  font-size: 40px;
+  color: #2e323b;
 }
 
-#about-first-page {
+/* #about-first-page {
   background-image: url(img/home-mobile.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-}
+} */
 
 #about-first-page {
   margin-right: 1em;
@@ -34,7 +35,7 @@
 
 .first-page-background {
   background-color: #fff;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .about-mobile-first-page h1 {
@@ -51,12 +52,11 @@
   font-family: 'COCOGOOSE', Arial, sans-serif;
   font-size: 43px;
   width: 100%;
-  color: transparent;
   background-image: url(img/font.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-clip: text;
-  background-clip: text;
+  color: transparent;
 }
 
 .about-mobile-first-page p {
@@ -69,11 +69,18 @@
   width: 100%;
 }
 
+.about-second-page h2,
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 27px;
+  padding-bottom: 1%;
+}
+
 .about-mobile-first-page h3 {
   display: flex;
   justify-content: center;
   font-family: 'Lato', sans-serif;
-  font-size: 15px;  
+  font-size: 15px;
   color: #2e323b;
   margin-top: 5%;
 }
@@ -87,17 +94,12 @@
   margin-top: 2%;
   padding-bottom: 10%;
 }
+
 .about-second-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.about-second-page h2, h3 {
-  font-family: 'Lato', sans-serif;
-  font-size: 27px;
-  padding-bottom: 1%;
 }
 
 .about-second-page hr {
@@ -155,16 +157,14 @@
   height: 2px;
   border-radius: 0.5px;
   margin-top: 0.5em;
-
 }
 
 .about-third-page p {
   justify-content: center;
   align-self: center;
   text-align: center;
-  padding-top: 1em; 
+  padding-top: 1em;
 }
-
 
 .techrunch1 {
   position: relative;
@@ -176,7 +176,6 @@
 .techrunch1 img {
   width: 100%;
   height: 100%;
- 
 }
 
 .techrunch1::before {
@@ -189,8 +188,6 @@
   right: 0;
   bottom: 0;
 }
-
-
 
 .techrunch1 span {
   font-family: 'COCOGOOSE', Arial, sans-serif;
@@ -253,8 +250,7 @@
   padding: 25px;
   justify-content: center;
   align-items: center;
-  gap: 20px
-  ;
+  gap: 20px;
 }
 
 .mobile-about-footer img {

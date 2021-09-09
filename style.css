@@ -1,182 +1,182 @@
 @import url(//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE);
+
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-  #handburger {
-    padding-top: 6%;
-    margin: 0 1em;
-    
-      
-  }
+#handburger {
+  padding-top: 6%;
+  margin: 0 1em;
+}
 
-  .handburger {
-    content: "\f0c9";
-    font-size: 40px;
-    color: #2e323b;
-  }
+.handburger {
+  content: "\f0c9";
+  font-size: 40px;
+  color: #2e323b;
+}
 
-  #first-page {
-    background-image: url(img/home-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-  }
+#first-page {
+  background-image: url(img/home-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
 
-  .first-page-background {
-    background-color: #fff;
-    opacity: 0.9;
-  }
+.first-page-background {
+  background-color: #fff;
+  opacity: 0.9;
+}
 
-  .mobile-first-page {
-      margin-right: 1em;
-      margin-left: 1em;
-      background-image: url(img/bck1.png), url(img/bck2.png), url(img/bck3.png), url(img/bck4.png);
-      background-repeat: no-repeat;
-      background-size: 20%, 12%, 5%, 5%;
-      background-position: 100% 50%, 60% 0%, 90% 3%, 5% 50%;
-      
-  }
+.mobile-first-page {
+  margin-right: 1em;
+  margin-left: 1em;
+  background-image: url(img/bck1.png), url(img/bck2.png), url(img/bck3.png), url(img/bck4.png);
+  background-repeat: no-repeat;
+  background-size: 20%, 12%, 5%, 5%;
+  background-position: 100% 50%, 60% 0%, 90% 3%, 5% 50%;
+}
 
-  .mobile-first-page h1 {
-    font-family: 'Lato', sans-serif;
-    color: #ec5242;
-    font-size: 25px;
-    padding-top: 6%;
-    width: 100%;
-  }
+.mobile-first-page h1 {
+  font-family: 'Lato', sans-serif;
+  color: #ec5242;
+  font-size: 25px;
+  padding-top: 6%;
+  width: 100%;
+}
 
-  .mobile-first-page h2 {
-    font-family: 'cocogoose', sans-serif;
-    color: transparent;
-    font-size: 40px;
-    width: 100%;
-    background-image: url(img/font.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
+.mobile-first-page h2 {
+  font-family: 'cocogoose', sans-serif;
+  color: transparent;
+  font-size: 40px;
+  width: 100%;
+  background-image: url(img/font.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
-  .mobile-first-page p {
-    margin-top: 10%;
-    background-color: #ece9e9;
-    border: 3px solid #fff;
-    color: #2e323b;
-    padding: 20px;
-    line-height: 25px;
-    width: 100%;
-  }
+.mobile-first-page p {
+  margin-top: 10%;
+  background-color: #ece9e9;
+  border: 3px solid #fff;
+  color: #2e323b;
+  padding: 20px;
+  line-height: 25px;
+  width: 100%;
+}
 
-  .mobile-first-page h3 {
-    font-family: 'cocogoose', sans-serif;
-    font-size: 28px;
-    font-weight: 700;
-    color: #2e323b;
-    margin-top: 5%;
-  }
+.mobile-first-page h3 {
+  font-family: 'cocogoose', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #2e323b;
+  margin-top: 5%;
+}
 
-  .mobile-first-page h4 {
-    font-family: 'Lato', sans-serif;
-    font-size: 23px;
-    color: #2e323b;
-    margin-top: 2%;
-    padding-bottom: 10%;
-  }
+.mobile-first-page h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 23px;
+  color: #2e323b;
+  margin-top: 2%;
+  padding-bottom: 10%;
+}
 
-  .mobile-second-page {
-      display: grid;
-      gap: 20px;
-      justify-content: center;
-      align-items: center;
-      background-image: url(img/xpattern.jpg);
-      width: 100%;   
-      background-repeat: repeat;
-      background-size: 10%;
-      background-color: #78829b;
-      padding-top: 5%;
-  }
-  
+.mobile-second-page {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/xpattern.jpg);
+  width: 100%;
+  background-repeat: repeat;
+  background-size: 10%;
+  background-color: #78829b;
+  padding-top: 5%;
+}
 
-  .mobile-second-page h2 {
-    font-family: 'Lato', sans-serif;
-    font-size: 25px;
-    font-weight: 800;
-    margin: 1em auto;
-    color: #fff;
-  }
+.mobile-second-page h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+  margin: 1em auto;
+  color: #fff;
+}
 
-  .mobile-second-page h2::after {
-    content: "";
-    background-color: #ec5242;
-    display: block;
-    margin: 0 auto;
-    width: 1.5em;
-    height: 2px;
-    border-radius: 0.5px;
-    margin-top: 0.5em;
-  }
+.mobile-second-page h2::after {
+  content: "";
+  background-color: #ec5242;
+  display: block;
+  margin: 0 auto;
+  width: 1.5em;
+  height: 2px;
+  border-radius: 0.5px;
+  margin-top: 0.5em;
+}
 
-  .card1, .card2, .card3, .card4, .card5 {
-      display: flex;
-      justify-content: space-between;
-      background-color: rgba(252, 241, 241, 0.277);
-      padding: 30px;
-      margin-left: 1em;
-      margin-right: 1em;
-      gap: 20px;
-  }
+.card1,
+.card2,
+.card3,
+.card4,
+.card5 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(252, 241, 241, 0.277);
+  padding: 30px;
+  margin-left: 1em;
+  margin-right: 1em;
+  gap: 20px;
+}
 
-  .mobile-second-page h3 {
-    color: #ec5242;
-    font-size: 20px;
-  }
+.mobile-second-page h3 {
+  color: #ec5242;
+  font-size: 20px;
+}
 
-  .mobile-second-page a {
-    color: #fff;
-    font-size: xx-large;
-  }
+.mobile-second-page a {
+  color: #fff;
+  font-size: xx-large;
+}
 
-  .mobile-second-page p {
-    color: #fff;
-    font-size: 20px;
-  }
+.mobile-second-page p {
+  color: #fff;
+  font-size: 20px;
+}
 
-  .mobile-second-page button {
-    width: 60%;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-    color: #fff;
-    background-color: #ec5242;
-    margin: 0 auto;
-    padding: 30px;
-    text-decoration: none;
-  }
+.mobile-second-page button {
+  width: 60%;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #ec5242;
+  margin: 0 auto;
+  padding: 30px;
+  text-decoration: none;
+}
 
-  .mobile-third-page {
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-  }
+.mobile-third-page {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
 
-  .mobile-third-page h2 {
-    padding-top: 5%;
-    align-self: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 25px;
-  }
+.mobile-third-page h2 {
+  padding-top: 5%;
+  align-self: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+}
 
-  .mobile-third-page::after {
-    content: "";
-    background-color: #ec5242;
-    display: block;
-    margin: 0 auto;
-    width: 1.5em;
-    height: 2px;
-    border-radius: 0.5px;
-    margin-top: 0.5em;
-  }
+.mobile-third-page::after {
+  content: "";
+  background-color: #ec5242;
+  display: block;
+  margin: 0 auto;
+  width: 1.5em;
+  height: 2px;
+  border-radius: 0.5px;
+  margin-top: 0.5em;
+}
