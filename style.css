@@ -206,7 +206,6 @@
   width: 8em;
   height: 8em;
   flex-shrink: 0;
-  
 }
 
 .speaker1 h2 {
@@ -235,7 +234,7 @@
 
 .speaker1 h4 {
   font-family: 'Lato', sans-serif;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 .more-btn {
