@@ -459,7 +459,7 @@ body {
     flex-direction: row;
     flex-shrink: 0;
     gap: 20px;
-    flex-wrap: wrap;
+    width: 100%;
   }
 
   .card1,
@@ -533,7 +533,7 @@ body {
   }
 
   .mobile-about-footer {
-    background-color: rgb(210, 218, 194);
+    background-color: #fff;
     display: flex;
     padding: 25px;
     justify-content: center;
