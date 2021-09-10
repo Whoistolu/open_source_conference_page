@@ -290,7 +290,7 @@ body {
 }
 
 .show {
-  display: flex;
+  display: flex !important;
 }
 
 .mobile-menu-hidden {
@@ -307,7 +307,7 @@ body {
 }
 
 .mobile-menu-hidden img {
-  width: 8%;
+  width: 5%;
   box-sizing: content-box;
   padding-top: 15px;
   padding-left: 15px;

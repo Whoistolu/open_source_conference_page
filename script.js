@@ -58,7 +58,8 @@ eventSpeakers.forEach((card) => {
 
 
 const mobileMenuButton = document.querySelector('#handburger');
-function display() {
+function display(e) {
+    e.preventDefault()
     const targetedDiv = document.querySelector('.mobile-menu-hidden');
     targetedDiv.classList.add('show');
     console.log(display);
