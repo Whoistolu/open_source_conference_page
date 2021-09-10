@@ -256,3 +256,7 @@ h3 {
 .mobile-about-footer img {
   width: 30%;
 }
+
+@media only screen and (min-width: 768px) {
+  
+}
