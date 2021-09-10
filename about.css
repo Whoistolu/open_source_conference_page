@@ -277,6 +277,7 @@ h3 {
     top: 0;
     z-index: 600;
   }
+
   .mobile-aboutpage-first-nav {
     background-color: #555151;
     display: flex;
@@ -414,5 +415,4 @@ h3 {
   .mobile-about-footer {
     background-color: #dfd6d5;
   }
-
 }

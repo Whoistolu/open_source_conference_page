@@ -140,12 +140,9 @@ body {
 }
 
 .mobile-second-page h3 {
-  min-width: 4em;
-}
-
-.mobile-second-page h3 {
   color: #ec5242;
   font-size: 20px;
+  min-width: 4em;
 }
 
 .mobile-second-page a {
@@ -337,10 +334,20 @@ body {
     padding-left: 20%;
   }
 
+  .partners img {
+    flex-wrap: wrap;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+
   .mobile-aboutpage-second-nav a {
     text-decoration: none;
     color: #000;
     padding-right: 20px;
+  }
+
+  .mobile-about-footer img {
+    width: 15%;
   }
 
   .mobile-aboutpage-second-nav a img {
@@ -465,7 +472,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top:70px;
+    margin-top: 70px;
     padding: 30px;
     background-color: rgb(86, 88, 80);
   }
@@ -480,12 +487,6 @@ body {
     margin: 15px auto;
   }
 
-  .partners img {
-    flex-wrap: wrap;
-    padding-right: 20px;
-    padding-top: 20px;
-  }
-
   .mobile-about-footer {
     background-color: rgb(210, 218, 194);
     display: flex;
@@ -493,9 +494,5 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
-  }
-  
-  .mobile-about-footer img {
-    width: 15%;
   }
 }
