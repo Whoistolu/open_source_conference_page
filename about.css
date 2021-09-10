@@ -322,10 +322,98 @@ h3 {
 
   .mobile-aboutpage-second-nav a#webdev {
     border: 2px solid red;
-    padding: 5px;
+    padding: 8px;
   }
 
   .mobile-aboutpage-second-nav a#about {
     color: red;
   }
+
+  #about-first-page {
+    padding-top: 60px;
+  }
+
+  .first-page-background {
+    background-color: #f3ebeb;
+  }
+
+  .about-mobile-first-page h1 {
+    font-size: 40px;
+  }
+
+  .about-mobile-first-page h2 {
+    font-size: 70px;
+  }
+
+  .about-mobile-first-page h2::after {
+    content: "";
+    background-color: #ec5242;
+    display: block;
+    margin: 0 auto;
+    width: 1.3em;
+    height: 2px;
+    border-radius: 0.5px;
+    margin-top: 0.5em;
+  }
+
+  .about-mobile-first-page p {
+    margin: 5% auto;
+    background-color: #fff;
+    border: 2px solid #d3d3d3;
+    color: #2e323b;
+    padding: 50px;
+    line-height: 25px;
+    width: 60%;
+  }
+
+  .about-mobile-first-page h3 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .about-mobile-first-page h4 {
+    font-size: 18px;
+    color: #202125;
+  }
+
+  .about-second-page {
+    padding-top: 40px;
+  }
+
+  .about-second-page h3::after {
+    content: "";
+    background-color: #ec5242;
+    display: block;
+    margin: 0 auto;
+    width: 1.5em;
+    height: 2px;
+    border-radius: 0.5px;
+    margin-top: 0.5em;
+  }
+
+  .logo2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    justify-content: center;
+    border: 1px solid #cac6c6;
+    padding: 25px 10%;
+    margin: 3% 0;
+    text-align: center;
+  }
+
+  .about-third-page .row {
+    display: flex;
+    gap: 25px;
+    padding-bottom: 30px;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .mobile-about-footer {
+    background-color: #dfd6d5;
+  }
+
 }
