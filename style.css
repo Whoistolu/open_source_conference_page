@@ -290,7 +290,7 @@ body {
 }
 
 .show {
-  display: block;
+  display: flex;
 }
 
 .mobile-menu-hidden {
@@ -299,7 +299,7 @@ body {
   height: 100vh;
   left: 0;
   right: 0;
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: #555151;
   z-index: 100;
@@ -322,11 +322,6 @@ body {
   padding-right: 20px;
   padding-bottom: 20px;
   font-weight: 900;
-}
-
-.mobile-menu-hidden a:hover {
-  cursor: pointer;
-  color: #78829b;
 }
 
 @media only screen and (min-width: 768px) {

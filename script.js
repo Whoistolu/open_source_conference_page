@@ -1,4 +1,3 @@
-
 const eventSpeakers = [
     {
         picture: 'img/1.png',
@@ -62,7 +61,7 @@ const mobileMenuButton = document.querySelector('#handburger');
 function display() {
     const targetedDiv = document.querySelector('.mobile-menu-hidden');
     targetedDiv.classList.add('show');
-    menuButton.style.display = 'none';
+    console.log(display);
   }
 
 mobileMenuButton.addEventListener('click', display);
@@ -70,7 +69,6 @@ const closeButton = document.querySelector('#close-button');
 function closePop() {
   const targetedDiv2 = document.querySelector('.mobile-menu-hidden');
   targetedDiv2.classList.remove('show');
-  menuButton.style.display = 'block';
 }
 
 closeButton.addEventListener('click', closePop);
