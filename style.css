@@ -436,12 +436,15 @@ body {
   }
 
   .speaker1 {
-    max-width: 49%;
+    width: 35%;
+    margin: 0;
   }
 
   .image-container {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 1000px;
+    gap: 5px;
+    min-width: 800px;
   }
 }
