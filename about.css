@@ -254,7 +254,7 @@ h3 {
 }
 
 .mobile-about-footer img {
-  width: 30%;
+  width: 20%;
 }
 
 .mobile-aboutpage-first-nav {
@@ -413,6 +413,6 @@ h3 {
   }
 
   .mobile-about-footer {
-    background-color: #dfd6d5;
+    background-color: rgb(29, 26, 26);
   }
 }
