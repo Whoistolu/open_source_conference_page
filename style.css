@@ -289,6 +289,21 @@ body {
   display: none;
 }
 
+.show {
+  display: block;
+}
+
+.mobile-menu-hidden {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  left: 0;
+  right: 0;
+  display: flex;
+  background-color: cyan;
+  z-index: 100;
+}
+
 @media only screen and (min-width: 768px) {
   #handburger {
     display: none;

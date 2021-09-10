@@ -56,3 +56,21 @@ const speakerAtEvent = document.getElementById('image-container1');
 eventSpeakers.forEach((card) => {
     speakerAtEvent.innerHTML += createSpeakersDiv(card);
 });
+
+
+const mobileMenuButton = document.querySelector('#handburger');
+function display() {
+    const targetedDiv = document.querySelector('.mobile-menu-hidden');
+    targetedDiv.classList.add('show');
+    menuButton.style.display = 'none';
+  }
+
+mobileMenuButton.addEventListener('click', display);
+const closeButton = document.querySelector('#close-button');
+function closePop() {
+  const targetedDiv2 = document.querySelector('.mobile-menu-hidden');
+  targetedDiv2.classList.remove('show');
+  menuButton.style.display = 'block';
+}
+
+closeButton.addEventListener('click', closePop);

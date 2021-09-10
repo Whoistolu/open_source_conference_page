@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-#about-handburger {
+#handburger {
   padding-top: 6%;
   margin: 0 1em;
 }
@@ -266,7 +266,7 @@ h3 {
 }
 
 @media only screen and (min-width: 768px) {
-  #about-handburger {
+  #handburger {
     display: none;
   }
 
