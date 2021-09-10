@@ -373,6 +373,11 @@ body {
 
   .mobile-first-page h2 {
     font-size: 70px;
+    max-width: 90em;
+  }
+
+  .mobile-first-page h3 {
+    max-width: 90em;
   }
 
   .mobile-first-page {
