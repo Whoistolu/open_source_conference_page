@@ -59,7 +59,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-clip: text;
-  background-clip: text;
 }
 
 .mobile-first-page p {
@@ -387,6 +386,12 @@ body {
     background-repeat: no-repeat;
     background-size: 10%, 5%, 3%, 3%;
     background-position: 90% 97%, 60% 40%, 90% 3%, 5% 50%;
+  }
+
+  .speaker1 h2,
+  h3,
+  h4 {
+    max-width: 10em;
   }
 
   .card1,
