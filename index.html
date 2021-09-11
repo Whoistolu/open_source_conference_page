@@ -12,6 +12,13 @@
     <title>Conference Page</title>
 </head>
 <body>
+    <div class="mobile-menu-hidden">
+        <img id="close-button" src="img/Icon.png" alt="close-icon">
+        <a href="/">Sponsor</a>
+        <a href="/">About</a>
+        <a href="/">Program</a>
+        <a href="/">Join</a>
+    </div>
     <div>
         <nav>
             <div class="mobile-aboutpage-first-nav">
@@ -23,7 +30,7 @@
             </div>
             <div class="mobile-aboutpage-second-nav">
                 <a href="/"><img src="img/mozilla.png" alt="logo"></a>
-                <a id="about" href="/">About</a>
+                <a id="about" href="about.html">About</a>
                 <a href="/">Program</a>
                 <a href="/">Join</a>
                 <a href="/">Sponsor</a>
@@ -32,9 +39,10 @@
             </div>
         </nav>
     </div>
+    
     <div id="first-page">
         <div class="first-page-background">
-            <div id="handburger" class="mobile-menu">
+            <div id="handburger">
                 <a href="/"><i class="fas fa-bars handburger"></i></a>
             </div>
             <div class="mobile-first-page">
@@ -86,7 +94,6 @@
                 <h2 id="event">Event Speakers</h2>
                 <div class="image-container" id="image-container1">    
                 </div>
-                <button class="more-btn"><span>MORE</span><i class="fas fa-chevron-down arrow"></i></button>
             </div>
             <div class="partners">
                 <h2>Partner</h2>
@@ -97,14 +104,15 @@
                     <img class="amazon" src="img/microverse.png" alt="amazon-image">
                     <img class="airbnb" src="img/behance.png" alt="airbnb-image">
                 </div>
-            </div>
-            <div class="mobile-about-footer">
-                <img src="img/v.jpg" alt="cc-logo">
-                <img src="img/mozilla.png" alt="mozilla-image">
-            </div>
-            
+            </div>     
         </section>
     </main>
+    <footer>
+        <div class="mobile-about-footer">
+            <img src="img/mozilla.png" alt="mozilla-image">
+            <div><p>2021 WebDevSummit.<br>An international summit<br>2021 WebDevSummit.</p></div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

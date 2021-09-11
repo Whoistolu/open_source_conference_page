@@ -3,7 +3,7 @@
 
 # Open Source Conference Page
 
-![screenshot]()
+![screenshot](img/htmlcapstone.png)
 
 This is my capstone project for the HTML/CSS module.
 An open source web development conference site.
@@ -20,7 +20,7 @@ This capstone consists of the mobile and desktop versions with the following sec
 - JAVASCRIPT
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://whoistolu.github.io/open_source_conference_page/about.html)
 
 
 ## To get a local copy run the following steps:

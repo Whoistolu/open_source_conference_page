@@ -246,18 +246,19 @@ body {
   font-size: 15px;
 }
 
-.more-btn {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 80px;
-  padding-left: 80px;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: 800;
-  color: #78829b;
-  background-color: #fff;
-  border: 1px solid #d1cfcf;
-  margin: 5% 8%;
+.mobile-about-footer {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #c4b5b5;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.mobile-about-footer img {
+  width: 20%;
 }
 
 .arrow {
@@ -285,8 +286,39 @@ body {
   display: none;
 }
 
-.mobile-about-footer {
+.show {
+  display: flex !important;
+}
+
+.mobile-menu-hidden {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  left: 0;
+  right: 0;
   display: none;
+  flex-direction: column;
+  background-color: #555151;
+  z-index: 100;
+  padding: 15px;
+}
+
+.mobile-menu-hidden img {
+  width: 5%;
+  box-sizing: content-box;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.mobile-menu-hidden a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #fff;
+  align-self: flex-end;
+  text-align: right;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  font-weight: 900;
 }
 
 @media only screen and (min-width: 768px) {
@@ -424,7 +456,7 @@ body {
     flex-direction: row;
     flex-shrink: 0;
     gap: 20px;
-    flex-wrap: wrap;
+    width: 100%;
   }
 
   .card1,
@@ -473,10 +505,6 @@ body {
     min-width: 800px;
   }
 
-  .more-btn {
-    display: none;
-  }
-
   .partners {
     display: flex;
     flex-direction: column;
@@ -498,11 +526,17 @@ body {
   }
 
   .mobile-about-footer {
-    background-color: rgb(210, 218, 194);
+    background-color: #fff;
     display: flex;
     padding: 25px;
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+
+  .mobile-about-footer p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
   }
 }

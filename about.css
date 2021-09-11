@@ -6,7 +6,11 @@
   margin: 0;
 }
 
-#about-handburger {
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+#handburger {
   padding-top: 6%;
   margin: 0 1em;
 }
@@ -16,13 +20,6 @@
   font-size: 40px;
   color: #2e323b;
 }
-
-/* #about-first-page {
-  background-image: url(img/home-mobile.jpg);
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-} */
 
 #about-first-page {
   margin-right: 1em;
@@ -247,14 +244,15 @@ h3 {
 
 .mobile-about-footer {
   display: flex;
-  padding: 25px;
+  padding: 20px;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+  width: 100%;
 }
 
 .mobile-about-footer img {
-  width: 30%;
+  width: 20%;
 }
 
 .mobile-aboutpage-first-nav {
@@ -266,7 +264,7 @@ h3 {
 }
 
 @media only screen and (min-width: 768px) {
-  #about-handburger {
+  #handburger {
     display: none;
   }
 
@@ -413,6 +411,12 @@ h3 {
   }
 
   .mobile-about-footer {
-    background-color: #dfd6d5;
+    background-color: rgb(29, 26, 26);
+  }
+
+  .mobile-about-footer p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
   }
 }
