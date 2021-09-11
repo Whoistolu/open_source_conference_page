@@ -246,18 +246,19 @@ body {
   font-size: 15px;
 }
 
-.more-btn {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 80px;
-  padding-left: 80px;
-  font-family: 'Lato', sans-serif;
-  font-size: 20px;
-  font-weight: 800;
-  color: #78829b;
+.mobile-about-footer {
   background-color: #fff;
-  border: 1px solid #d1cfcf;
-  margin: 5% 8%;
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.mobile-about-footer p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 .arrow {
@@ -539,5 +540,11 @@ body {
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+
+  .mobile-about-footer p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
   }
 }
