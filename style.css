@@ -247,18 +247,18 @@ body {
 }
 
 .mobile-about-footer {
-  background-color: #fff;
   display: flex;
-  padding: 25px;
+  padding: 20px;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+  background-color: #c4b5b5;
+  margin-top: 15px;
+  width: 100%;
 }
 
-.mobile-about-footer p {
-  color: #000;
-  font-size: 18px;
-  font-weight: 900;
+.mobile-about-footer img {
+  width: 20%;
 }
 
 .arrow {
@@ -283,10 +283,6 @@ body {
 }
 
 .partners {
-  display: none;
-}
-
-.mobile-about-footer {
   display: none;
 }
 
@@ -507,10 +503,6 @@ body {
     flex-wrap: wrap;
     gap: 5px;
     min-width: 800px;
-  }
-
-  .more-btn {
-    display: none;
   }
 
   .partners {

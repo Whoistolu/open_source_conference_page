@@ -248,6 +248,7 @@ h3 {
   justify-content: center;
   align-items: center;
   gap: 30px;
+  width: 100%;
 }
 
 .mobile-about-footer img {
