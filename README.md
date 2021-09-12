@@ -3,7 +3,7 @@
 
 # Open Source Conference Page
 
-![screenshot](img/developer.gif)
+![screenshot](img/desktop.png)
 
 This is my capstone project for the HTML/CSS module.
 An open source web development conference site.
