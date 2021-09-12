@@ -425,10 +425,10 @@ body {
     padding-left: 15%;
     margin-right: 1em;
     margin-left: 1em;
-    background-image: url(img/bck1.png), url(img/bck2.png), url(img/bck3.png), url(img/bck4.png);
+    background-image: url(img/bck1.png), url(img/bck2.png), url(img/bck3.png), url(img/bck4.png), url(img/developer.gif);
     background-repeat: no-repeat;
-    background-size: 10%, 5%, 3%, 3%;
-    background-position: 90% 97%, 60% 40%, 90% 3%, 5% 50%;
+    background-size: 10%, 5%, 3%, 3%, 40%;
+    background-position: 90% 97%, 60% 40%, 90% 3%, 5% 50%, 100% 50%;
   }
 
   .card1,
@@ -457,6 +457,7 @@ body {
     flex-shrink: 0;
     gap: 20px;
     width: 100%;
+    flex-wrap: wrap;
   }
 
   .card1,
